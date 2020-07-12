@@ -1,0 +1,83 @@
+
+  
+.container{
+   
+    height: 150px;
+    padding-top:20px ;
+    background-image: url("https://us.123rf.com/450wm/9dreamstudio/9dreamstudio1803/9dreamstudio180301202/97219150-donuts-decorated-icing-and-sprinkles-on-pink-background-top-view-copy-space-pattern.jpg?ver=6");
+}
+.header{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+  text-align:center;
+}
+.input-field{
+  text-align: center;
+} 
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:whitesmoke;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: tomato;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+}
+
+
+.dropdown-content a:hover {
+  background-color: rgb(123, 36, 158);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
